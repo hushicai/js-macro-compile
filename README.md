@@ -60,7 +60,7 @@ var config = {
 };
 ```
 
-预编译宏之后：
+预编译之后：
 
 ```javascript
 define(function(require) {
