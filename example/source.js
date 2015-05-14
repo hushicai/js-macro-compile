@@ -23,6 +23,12 @@ define(
             console.log('pc');
         }
 
+        if (EC_DEFINED('mobile') && EC_DEFINED('android.chrome')) {
+            var test = require('chrome');
+        }
+        else {
+            var test2 = require('xxx');
+        }
 
         if (EC_DEFINED('mobile')) {
             var test = require('hammer');

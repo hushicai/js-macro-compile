@@ -10,7 +10,10 @@ var code = fs.readFileSync(filename, 'utf8');
 var config = {
     mobile: 1,
     ios: 1,
-    ios8: 1
+    ios8: 1,
+    android: {
+        chrome: 1,
+    }
 };
 
 var code = require('../lib/compile')(code, {config: config});
