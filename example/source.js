@@ -14,21 +14,21 @@ define(
             console.log('pc');
         }
 
-        // if (EC_DEFINED('mobile') && EC_DEFINED('ios')) {
-            // console.log('test');
-            // console.log('mobile');
-        // }
-        // else {
-            // console.log('test');
-            // console.log('pc');
-        // }
+        if (EC_DEFINED('mobile') && EC_DEFINED('ios')) {
+            console.log('test');
+            console.log('ios');
+        }
+        else {
+            console.log('test');
+            console.log('pc');
+        }
 
 
         if (EC_DEFINED('mobile')) {
-            var test = require('test');
+            var test = require('hammer');
         }
         else {
-            var test2 = require('test2');
+            var test2 = require('xxx');
         }
     }
 );
