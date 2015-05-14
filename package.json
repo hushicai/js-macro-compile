@@ -1,0 +1,24 @@
+{
+  "name": "js-macro-compile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/compile.js",
+  "bin": "bin/js-macro-compile",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hushicai/js-macro-compile.git"
+  },
+  "author": "hushicai <bluthcy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hushicai/js-macro-compile/issues"
+  },
+  "homepage": "https://github.com/hushicai/js-macro-compile",
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "uglify-js": "^2.4.21"
+  }
+}
