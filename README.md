@@ -1,6 +1,6 @@
 # js-macro-compile
 
-利用自定义宏，删除不必要的分支代码。
+利用自定义宏，在特定的场景下，删除一些不必要的分支代码。
 
 ## example
 
@@ -45,6 +45,19 @@ define(
         }
     }
 );
+```
+
+配置：
+
+```javascript
+var config = {
+    mobile: 1,
+    ios: 1,
+    ios8: 1,
+    android: {
+        chrome: 1,
+    }
+};
 ```
 
 预编译宏之后：
