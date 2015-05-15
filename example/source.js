@@ -9,12 +9,12 @@ define(
             console.log('mobile');
         }
 
-        if (EC_DEFINED('mobile') && EC_DEFINED('ios')) {
-            console.log('ios');
-        }
-        else {
-            console.log('pc1');
-        }
+if (EC_DEFINED('mobile') && EC_DEFINED('ios')) {
+        console.log('ios');
+}
+else {
+        console.log('pc1');
+}
 
         if (EC_DEFINED('mobile') && EC_DEFINED('android.chrome')) {
             var test = require('chrome');
