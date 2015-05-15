@@ -5,7 +5,16 @@
 
 define(
     function (require) {
-        if (EC_DEFINED('mobile')) {
+        var a = 1;
+        if (!EC_DEFINED('mobile') && a === 1) {
+            console.log('mobile');
+        }
+        else {
+            console.log('pc');
+        }
+
+        var b = 'test';
+        if (EC_DEFINED('mobile') && b === 'test') {
             console.log('mobile');
         }
         else {
