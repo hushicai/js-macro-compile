@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/hushicai/js-macro-compile",
   "dependencies": {
-    "minimist": "^1.1.1",
-    "uglify-js": "^2.4.21"
+    "escodegen": "^1.6.1",
+    "esprima": "^2.2.0",
+    "estraverse": "^4.1.0"
   }
 }

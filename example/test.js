@@ -9,8 +9,7 @@ var code = fs.readFileSync(filename, 'utf8');
 
 var config = {
     mobile: 1,
-    ios: 1,
-    ios8: 1,
+    ios: 8,
     android: {
         chrome: 1,
     }
