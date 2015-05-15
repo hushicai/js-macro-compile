@@ -5,17 +5,8 @@
 
 define(
     function (require) {
-        var a = 1;
-        if (!EC_DEFINED('mobile') && a === 1) {
+        if (EC_DEFINED('mobile')) {
             console.log('mobile');
-        }
-
-        var b = 'test';
-        if (EC_DEFINED('mobile') && b === 'test') {
-            console.log('mobile');
-        }
-        else {
-            console.log('pc');
         }
 
         if (EC_DEFINED('mobile') && EC_DEFINED('ios')) {
