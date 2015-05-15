@@ -2,6 +2,26 @@
 
 利用自定义宏，在特定的场景下，删除没有覆盖到的分支代码。
 
+## usage
+
+安装它：
+
+```bash
+npm install js-macro-compile --save
+```
+
+在node.js中使用它：
+
+```javascript
+var jsMacroCompile = require('js-macro-compile');
+var code = require('fs').readFileSync(filename, 'utf8');
+var config = {
+    mobile: 1
+};
+code = jsMacroCompile(code, {config: config});
+console.log(code);
+```
+
 ## test
 
 ```bash
