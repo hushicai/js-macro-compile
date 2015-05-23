@@ -7,6 +7,8 @@ define(
     function (require) {
         if (EC_DEFINED('mobile')) {
             console.log('mobile');
+            console.log('mobile2');
+            console.log('mobile3');
         }
         
         if (EC_EQUAL('ios', 8)) {
@@ -40,6 +42,9 @@ define(
         }
         else {
             var test2 = require('pc3');
+        }
+        if (1) {
+            1;
         }
     }
 );
